@@ -18,7 +18,7 @@ Image Gallery is a visually engaging photo gallery app, ideal for creatives and 
 git clone <https://github.com/><your-id>/image-gallery-starter-next.git
 ```
 
-1. Enter the correct directory, install dependencies and run locally:
+3. Enter the correct directory, install dependencies and run locally:
 
 ```bash
 cd image-gallery-starter-next
@@ -26,7 +26,7 @@ npm i
 
 ```
 
-1. Create a `.env`  and then supply the below Cloudinary config parameters from your console:
+4. Create a `.env`  and then supply the below Cloudinary config parameters from your console:
 
 ```jsx
 NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
@@ -35,13 +35,13 @@ CLOUDINARY_API_SECRET=
 CLOUDINARY_FOLDER=
 ```
 
-1. Run locally:
+5.  Run locally:
 
 ```jsx
 npm run dev
 ```
 
-1. Ensure that you install the Fleek CLI and the Fleek Next Adapter:
+6. Ensure that you install the Fleek CLI and the Fleek Next Adapter:
 
 ```bash
 // local installation
@@ -63,7 +63,7 @@ npm i -g @fleek-platform/next
 **export const runtime = 'edge';**
 ```
 
-1. Build the project using the Fleek Next Adapter:
+2. Build the project using the Fleek Next Adapter:
 
 ```bash
 npx fleek-next build
@@ -71,7 +71,7 @@ npx fleek-next build
 fleek-next build
 ```
 
-1. Now, Create the Fleek Function using the Fleek CLI:
+3. Now, Create the Fleek Function using the Fleek CLI:
 
 ```bash
 //syntax
@@ -81,7 +81,7 @@ fleek functions create --name '<name of your function>'
 fleek functions create --name nextra
 ```
 
-1. Finally, deploy using the Fleek CLI:
+5. Finally, deploy using the Fleek CLI:
 
 ```bash
 //syntax
