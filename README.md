@@ -81,7 +81,7 @@ fleek functions create --name '<name of your function>'
 fleek functions create --name nextra
 ```
 
-5. Finally, deploy using the Fleek CLI:
+4. Finally, deploy using the Fleek CLI:
 
 ```bash
 //syntax
